@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+Test set: com.capstone.bus_reservation_system.BusReservationSystemApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 13, Skipped: 0, Time elapsed: 6.141 s <<< FAILURE! - in com.capstone.bus_reservation_system.BusReservationSystemApplicationTests
+getDepartureTime  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+getArrivalTime  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+getId  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+setId  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+setToCity  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+setFromCity  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+getToCity  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+getFromCity  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+setDepartureTime  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+setArrivalTime  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+setPrice  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+
+getPrice  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+Caused by: org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.capstone.bus_reservation_system.Booking.bus references an unknown entity: model.Bus
+

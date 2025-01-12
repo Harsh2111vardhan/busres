@@ -1,7 +1,7 @@
 const fromDropdown = document.getElementById('from');
 const toDropdown = document.getElementById('to');
 
-const cities = ['City 1', 'City 2', 'City 3', 'City 4'];
+const cities = ['Chennai', 'Delhi', 'Mumbai', 'Banglore'];
 
 cities.forEach(city => {
     const option = document.createElement('option');
